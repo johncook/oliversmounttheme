@@ -1,0 +1,51 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+#zone-branding {
+  position: relative;
+  min-height: 100px;
+}
+
+#region-user-second {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+#block-block-5 {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+#section-content {
+  background-image: url("../images/bg.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 1px;
+}
+
+.context-gallery.page-taxonomy article,
+.view-gallery .views-row {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#flexslider-1 .flex-caption {
+  position: absolute;
+  width: 30%;
+  right: 0;
+  bottom: 30px;
+  color: #cccccc;
+  background: #000000;
+  background: rgba(0,0,0,0.5);
+  padding: 10px 10px 10px 20px;
+  max-height: 70%;
+  overflow: hidden;
+}
+
+#flexslider-1 .flex-caption p:last-child {
+  margin: 0;
+}
+
