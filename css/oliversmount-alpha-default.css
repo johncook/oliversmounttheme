@@ -32,6 +32,14 @@
   vertical-align: top;
 }
 
+.views-films .views-row {
+  clear: both;
+}
+
+.views-films a {
+  float: left;
+}
+
 #flexslider-1 .flex-caption {
   position: absolute;
   width: 30%;
